@@ -21,16 +21,28 @@
         <div class="col">
             <img src="images/wind.png">
             <div>
-                <p class="wind">16 km/h</p>
+                <p class="humidity">16 km/h</p>
+                <p>humidity</p>
             </div>
         </div>
         <div class="col">
             <img src="images/humidity.png">
             <div>
-                <p class="speed">50%</p>
+                <p class="wind">50%</p>
+                <p>wind speed</p>
             </div>
         </div>
     </div>
     </div>
+
+<script>
+    const apiKey="b7bc1ffd478b87b84d5b15bb670d6775";
+    const apiUrl="https://api.openweathermap.org/data/2.5/weather?&units=metric&q=delhi";
+
+    async function checkweather() {
+        const response = await fetch();
+        
+    }
+</script>
 </body>
 </html>
